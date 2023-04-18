@@ -1,4 +1,5 @@
 import NavBarComponent from "./NavBar";
-import BannerComponent from "./Banner";
+import SliderVideosComponent from "./SliderVideos";
+import SliderImgsComponent from "./SliderImgs";
 
-export { NavBarComponent, BannerComponent };
+export { NavBarComponent, SliderVideosComponent, SliderImgsComponent };

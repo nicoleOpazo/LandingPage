@@ -21,6 +21,8 @@ function NavBarComponent() {
                     <a href="/servicios">Servicios</a>
                     <a href="/catalogo">Catálogo</a>
                     <a href="/contacto">Contacto</a>
+
+                    <div class="close-btn" ref={menuBtnRef} onClick={handleClick}></div>
                 </div>
             </div>
         </header>
