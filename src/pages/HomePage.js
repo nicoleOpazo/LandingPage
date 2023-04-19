@@ -1,7 +1,8 @@
 import React from 'react';
 import '../assets/Styles.css'
 
-import { NavBarComponent, SliderVideosComponent, SliderImgsComponent } from '../components';
+import { NavBarComponent, SliderVideosComponent, SliderImgsComponent, ServicesComponent, CatalogueComponent, ContactComponent } from '../components';
+import CataloguePage from './CataloguePage';
 
 const HomePage = () => {
     return (
@@ -9,6 +10,10 @@ const HomePage = () => {
             <NavBarComponent/>
             {/* <SliderVideosComponent/> */}
             <SliderImgsComponent/>
+            {/* <CataloguePage/> */}
+            <ServicesComponent/>
+            <CatalogueComponent/>
+            <ContactComponent/>
         </div>
     );
 }

@@ -7,7 +7,7 @@ const CataloguePage = () => {
     return (
         <div>
             <NavBarComponent />
-            <div
+            <div className='catalogue'
                 style={{
                     display: 'flex',
                     justifyContent: 'center',

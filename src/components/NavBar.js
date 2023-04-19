@@ -1,6 +1,11 @@
 import React, { useRef } from 'react';
 
 import '../assets/Styles.css'
+import ServicesComponent from './Services';
+import CatalogueComponent from './Catalogue';
+import ContactComponent from './Contact';
+import SliderImgsComponent from './SliderImgs';
+import SliderVideosComponent from './SliderVideos';
 
 function NavBarComponent() {
     const menuBtnRef = useRef(null);
@@ -17,10 +22,10 @@ function NavBarComponent() {
             <div class="menu-btn" ref={menuBtnRef} onClick={handleClick}></div>
             <div class="navigation" ref={navigationRef}>
                 <div class="navigation-items">
-                    <a href="/">Inicio</a>
-                    <a href="/servicios">Servicios</a>
-                    <a href="/catalogo">Catálogo</a>
-                    <a href="/contacto">Contacto</a>
+                    <a href="#sliderdeimgs">Inicio</a>
+                    <a href="#services">Servicios</a>
+                    <a href="#catalogue">Catálogo</a>
+                    <a href="#contact">Contacto</a>
 
                     <div class="close-btn" ref={menuBtnRef} onClick={handleClick}></div>
                 </div>

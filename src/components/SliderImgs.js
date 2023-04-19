@@ -33,11 +33,11 @@ const SliderImgsComponent = () => {
     }, [activeSlide]);
 
     return (
-        <section className="home">
+        <section id='sliderdeimgs' className="home">
             <div className="slider-wrapper" style={{ width: '100%', display: 'flex' }}>
-                <img className={activeSlide === 0 ? 'image-slide active' : 'image-slide'} src={img2}></img>
-                <img className={activeSlide === 1 ? 'image-slide active' : 'image-slide'} src={img1}></img>
-                <img className={activeSlide === 2 ? 'image-slide active' : 'image-slide'} src={img3}></img>
+                <img className={activeSlide === 0 ? 'image-slide active' : 'image-slide'} src="https://live.staticflickr.com/65535/52828777790_e1455f743c_c.jpg"></img>
+                <img className={activeSlide === 1 ? 'image-slide active' : 'image-slide'} src="https://live.staticflickr.com/65535/52828558904_a7714ca6e0_c.jpg"></img>
+                <img className={activeSlide === 2 ? 'image-slide active' : 'image-slide'} src="https://live.staticflickr.com/65535/52827801807_dce43ae968_c.jpg"></img>
             </div>
 
             <div className={activeSlide === 0 ? 'content active' : 'content'}>

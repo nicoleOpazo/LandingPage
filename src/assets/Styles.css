@@ -1,6 +1,33 @@
 /* IMGS SLIDER */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
+#services {
+    background-image: url('https://img.freepik.com/free-photo/dense-red-cloud-haze-liquid_23-2148102188.jpg?w=740&t=st=1681892695~exp=1681893295~hmac=2a715da8f40a699cbbc576ffcf36c7b0842c51197c72495408a7933d88d8dee1');
+    background-attachment: fixed;
+    min-width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#catalogue {
+    background-image: url('https://img.freepik.com/free-photo/acryllic-color-dissolving-water_53876-98233.jpg?w=740&t=st=1681879584~exp=1681880184~hmac=05ee6503d2a043cde1f49f058a5b5bd4c9d9db545a2ff6b0b566a32a6aa6a63c');
+    background-attachment: fixed;
+    min-width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#contact {
+    background-image: url('https://img.freepik.com/free-photo/bright-pink-hazy-cloud_23-2148102363.jpg?w=740&t=st=1681892685~exp=1681893285~hmac=a6425af1a15668aefe9ac99a48915fd1d18ca1dfa4dbc90c7b9afe6b582251db');
+    background-attachment: fixed;
+    min-width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +38,7 @@
 /* " navbar " */
 header {
     z-index: 999;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -20,12 +47,12 @@ header {
     align-items: center;
     padding: 15px 200px;
     transition: 0.5s ease;
-    background-color: transparent;
+    /* background-color: transparent; */
 
-    /* background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255 0));
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); */
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255 0));
+    /* -webkit-backdrop-filter: blur(35px); */
+    backdrop-filter: blur(5px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 /* " logo " */
@@ -89,9 +116,7 @@ section {
     background: #000000f1;
 
     height: 500px;
-    /* altura fija del elemento padre */
     overflow: hidden;
-    /* aplicar overflow: hidden para ocultar las imágenes adicionales */
 }
 
 .home:before {
@@ -237,6 +262,15 @@ section {
         padding: 100px 20px;
     }
 
+    #services {
+        background-attachment: fixed;
+        min-width: 100%;
+        min-height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
     .home .media-icons {
         right: 15px;
     }
@@ -340,6 +374,8 @@ section {
         align-items: center;
         z-index: 999;
     }
+
+
 }
 
 @media (max-width: 560px) {
