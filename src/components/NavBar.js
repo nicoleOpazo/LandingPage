@@ -22,10 +22,10 @@ function NavBarComponent() {
             <div class="menu-btn" ref={menuBtnRef} onClick={handleClick}></div>
             <div class="navigation" ref={navigationRef}>
                 <div class="navigation-items">
-                    <a href="#sliderdeimgs">Inicio</a>
-                    <a href="#services">Servicios</a>
-                    <a href="#catalogue">Catálogo</a>
-                    <a href="#contact">Contacto</a>
+                    <a href="/">Inicio</a>
+                    <a href="/#services">Servicios</a>
+                    <a href="/#catalogue">Catálogo</a>
+                    <a href="/#contact">Contacto</a>
 
                     <div class="close-btn" ref={menuBtnRef} onClick={handleClick}></div>
                 </div>
