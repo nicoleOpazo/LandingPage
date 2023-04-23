@@ -7,14 +7,27 @@ import conejudo2 from '../assets/cone2.jpeg'
 import chimi from '../assets/chimi.jpeg'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { FaMedapps } from 'react-icons/fa';
 
 function ServicesComponent() {
     return (
         <div id='services'>
             <h1>services</h1>
 
+            <button className='btn-services'>
+                <a href="https://www.instagram.com/">
+                    <FaMedapps className='icon' />
+                    <br/>
+                    <p>
+                        Some quick example text to build
+                        on the card title and make up
+                        the bulk of the card's content.
+                    </p>
+                </a>
+            </button>
+
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={conejudo} className='tarjeta'/>
+                <Card.Img variant="top" src={conejudo} className='tarjeta' />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
                     <Card.Text>
@@ -26,7 +39,7 @@ function ServicesComponent() {
             </Card>
 
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={conejudo2} className='tarjeta'/>
+                <Card.Img variant="top" src={conejudo2} className='tarjeta' />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
                     <Card.Text>
@@ -38,7 +51,7 @@ function ServicesComponent() {
             </Card>
 
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={chimi} className='tarjeta'/>
+                <Card.Img variant="top" src={chimi} className='tarjeta' />
                 <Card.Body>
                     <Card.Title>Espécimen número 3</Card.Title>
                     <Card.Subtitle>Chimichurri en posición rara</Card.Subtitle>

@@ -6,13 +6,36 @@
 }
 
 #services {
-    background-image: url('https://img.freepik.com/free-photo/dense-red-cloud-haze-liquid_23-2148102188.jpg?w=740&t=st=1681892695~exp=1681893295~hmac=2a715da8f40a699cbbc576ffcf36c7b0842c51197c72495408a7933d88d8dee1');
+    /* background-image: url('https://img.freepik.com/free-photo/dense-red-cloud-haze-liquid_23-2148102188.jpg?w=740&t=st=1681892695~exp=1681893295~hmac=2a715da8f40a699cbbc576ffcf36c7b0842c51197c72495408a7933d88d8dee1'); */
+    background-color: #222;
     background-attachment: fixed;
     min-width: 100%;
     min-height: 100vh;
     background-size: cover;
     background-position: center;
+    color: gray;
 }
+
+#services .btn-services {
+    border: none;
+    background-color: transparent;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#services .btn-services a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+#services .icon {
+    font-size: 5em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
 
 #catalogue {
     background-image: url('https://img.freepik.com/free-photo/acryllic-color-dissolving-water_53876-98233.jpg?w=740&t=st=1681879584~exp=1681880184~hmac=05ee6503d2a043cde1f49f058a5b5bd4c9d9db545a2ff6b0b566a32a6aa6a63c');
