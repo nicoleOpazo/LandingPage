@@ -12,21 +12,90 @@ import { FaMedapps } from 'react-icons/fa';
 function ServicesComponent() {
     return (
         <div id='services'>
-            <h1>services</h1>
+            <h1 style={{textAlign: 'center'}}>services</h1>
 
-            <button className='btn-services'>
-                <a href="https://www.instagram.com/">
-                    <FaMedapps className='icon' />
-                    <br/>
-                    <p>
-                        Some quick example text to build
-                        on the card title and make up
-                        the bulk of the card's content.
-                    </p>
-                </a>
-            </button>
+            <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '60px' }}>
+                <div style={{ display: 'flex', alignItems: 'center', marginRight: '50px' }}>
+                    <a href="https://www.instagram.com/" >
+                        <FaMedapps className='icon' />
+                        <br />
+                        <p>
+                            Some quick example text to build
+                            on the card title and make up
+                            the bulk of the card's content.
+                        </p>
+                    </a>
+                </div>
 
-            <Card style={{ width: '18rem' }}>
+                <div style={{ display: 'flex', alignItems: 'center', marginRight: '50px' }}>
+                    <a href="https://www.instagram.com/" >
+                        <FaMedapps className='icon' />
+                        <br />
+                        <p>
+                            Some quick example text to build
+                            on the card title and make up
+                            the bulk of the card's content.
+                        </p>
+                    </a>
+                </div>
+
+                <div style={{ display: 'flex', alignItems: 'center' }}>
+                    <a href="https://www.instagram.com/" >
+                        <FaMedapps className='icon' />
+                        <br />
+                        <p>
+                            Some quick example text to build
+                            on the card title and make up
+                            the bulk of the card's content.
+                        </p>
+                    </a>
+                </div>
+            </div>    
+
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <div style={{ display: 'flex', alignItems: 'center', marginRight: '50px' }}>
+                    <a href="https://www.instagram.com/" >
+                        <FaMedapps className='icon' />
+                        <br />
+                        <p>
+                            Some quick example text to build
+                            on the card title and make up
+                            the bulk of the card's content.
+                        </p>
+                    </a>
+                </div>
+
+                <div style={{ display: 'flex', alignItems: 'center', marginRight: '50px' }}>
+                    <a href="https://www.instagram.com/" >
+                        <FaMedapps className='icon' />
+                        <br />
+                        <p>
+                            Some quick example text to build
+                            on the card title and make up
+                            the bulk of the card's content.
+                        </p>
+                    </a>
+                </div>
+
+                <div style={{ display: 'flex', alignItems: 'center' }}>
+                    <a href="https://www.instagram.com/" >
+                        <FaMedapps className='icon' />
+                        <br />
+                        <p>
+                            Some quick example text to build
+                            on the card title and make up
+                            the bulk of the card's content.
+                        </p>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    );
+};
+export default ServicesComponent;
+
+/* <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={conejudo} className='tarjeta' />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
@@ -60,27 +129,4 @@ function ServicesComponent() {
                     </Card.Text>
                     <Button variant="primary">Aprende más sobre: El Chimichurri</Button>
                 </Card.Body>
-            </Card>
-        </div >
-    );
-};
-export default ServicesComponent;
-
-/*
-<div>
-    <NavBarComponent />
-    <div className='catalogue'
-        style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            position: 'absolute',
-            top: '50%', left: '50%',
-            transform: 'translate(-50%, -50%)',
-            height: '100%',
-            width: '100%'
-        }}>
-        <h1>3aló</h1>
-    </div>
-</div>
-*/
+            </Card> */
