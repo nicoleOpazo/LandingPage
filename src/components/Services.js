@@ -2,9 +2,6 @@ import React from 'react';
 
 import '../assets/Styles.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import conejudo from '../assets/cone.jpeg'
-import conejudo2 from '../assets/cone2.jpeg'
-import chimi from '../assets/chimi.jpeg'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { FaMedapps } from 'react-icons/fa';

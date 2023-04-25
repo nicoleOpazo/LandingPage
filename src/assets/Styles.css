@@ -12,8 +12,9 @@
 }
 
 #services {
-    background-image: url('https://img.freepik.com/free-photo/grey-geometrical-shapes-background_23-2148811539.jpg?w=1380&t=st=1682375938~exp=1682376538~hmac=c30ab394f25ce68e9d3c8aeab600b03314e5042cd3a8b38683015404828a7de9');
-    background-attachment: fixed;
+    /* background-image: url('https://img.freepik.com/free-photo/grey-geometrical-shapes-background_23-2148811539.jpg?w=1380&t=st=1682375938~exp=1682376538~hmac=c30ab394f25ce68e9d3c8aeab600b03314e5042cd3a8b38683015404828a7de9');
+    background-attachment: fixed; */
+    background-color: #222;
     min-width: 100%;
     min-height: 100vh;
     background-size: cover;
@@ -24,16 +25,25 @@
 }
 
 #services .card {
-    width: 25rem;
+    width: 22rem;
     background-color: transparent;
     border: none;
     color: #fff;
     font-weight: 300;
+    padding: 20px;
+}
+
+#services .card:hover {
+    box-shadow: 3px 3px 10px #696969, -3px 3px 10px #696969;
 }
 
 #services .img-card {
-    height: 15rem;
+    height: 12rem;
     border-radius: 7px;
+}
+
+#services .img-card:hover {
+    transform: scale(1.1);
 }
 
 #services .btn {
@@ -155,6 +165,8 @@ header .navigation .navigation-items a:before {
 header .navigation .navigation-items a:hover:before {
     width: 100%;
 }
+
+
 
 /* " slider" */
 section {
@@ -287,7 +299,7 @@ section {
 }
 
 .slider-navigation .nav-btn:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 .slider-navigation .nav-btn:hover {
@@ -295,15 +307,21 @@ section {
 }
 
 .image-slide {
+    transition: opacity 1s ease-in-out;
     position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
     width: 100%;
-    clip-path: circle(0% at 0 50%);
+    height: auto;
 }
 
 .image-slide.active {
-    clip-path: circle(150% at 0 50%);
-    transition: 2s ease;
-    transition-property: clip-path;
+    opacity: 1;
+}
+
+.image-slide.previous {
+    opacity: 0;
 }
 
 /* " end slider" */
