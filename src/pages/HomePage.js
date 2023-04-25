@@ -1,7 +1,7 @@
 import React from 'react';
 import '../assets/Styles.css'
 
-import { NavBarComponent, SliderVideosComponent, SliderImgsComponent, ServicesComponent, ProductsComponent, ContactComponent } from '../components';
+import { NavBarComponent, SliderVideosComponent, SliderImgsComponent, ServicesComponent, ProductsComponent, ContactComponent, AboutUsComponent } from '../components';
 
 const HomePage = () => {
     return (
@@ -9,6 +9,7 @@ const HomePage = () => {
             <NavBarComponent/>
             {/* <SliderVideosComponent/> */}
             <SliderImgsComponent/>
+            <AboutUsComponent/>
             <ServicesComponent/>
             <ProductsComponent/>
             <ContactComponent/>

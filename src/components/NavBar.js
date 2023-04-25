@@ -6,6 +6,7 @@ import ProductsComponent from './Products';
 import ContactComponent from './Contact';
 import SliderImgsComponent from './SliderImgs';
 import SliderVideosComponent from './SliderVideos';
+import AboutUsComponent from './AboutUs';
 
 function NavBarComponent() {
     const menuBtnRef = useRef(null);
@@ -23,7 +24,7 @@ function NavBarComponent() {
             <div class="navigation" ref={navigationRef}>
                 <div class="navigation-items">
                     <a href="/">Inicio</a>
-                    <a href="/">Somos</a>
+                    <a href="/#about">Somos</a>
                     <a href="/#services">Servicios</a>
                     <a href="/#products">Productos</a>
                     <a href="/#contact">Contacto</a>
