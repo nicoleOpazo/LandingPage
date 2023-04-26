@@ -24,9 +24,9 @@ function NavBarComponent() {
             <div class="navigation" ref={navigationRef}>
                 <div class="navigation-items">
                     <a href="/">Inicio</a>
-                    <a href="/#about">Somos</a>
+                    <a href="/#about">Nosotros</a>
                     <a href="/#services">Servicios</a>
-                    <a href="/#products">Productos</a>
+                    <a href="/#products">Propiedades</a>
                     <a href="/#contact">Contacto</a>
 
                     <div class="close-btn" ref={menuBtnRef} onClick={handleClick}></div>
