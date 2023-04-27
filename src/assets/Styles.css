@@ -1,27 +1,102 @@
 /* IMGS SLIDER */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Manrope', sans-serif;
 }
 
 #about {
     background-color: rgb(0, 0, 0);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
-.column {
+table, td, th {
+  padding: 9px;
+}
+
+table a {
+    background: #f0f0f0;
+    padding: 12px 25px;
+    color: #202020;
+    font-size: 1.1rem;
+    line-height: 1.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 32px;
+}
+
+.contr-img h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: -.02em;
+}
+
+.contr-img h6 {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.contr-img p {
+    font-size: 1.2rem;
+    line-height: 1.85rem;
+    font-weight: 600;
+}
+
+/* table img:hover {
+    transform: scale(1.1);
+    transition: 0.2s linear;
+} */
+
+/* .split {
+    height: 100%;
+    width: 60%;
+    z-index: 999;
+    position: relative;
+    overflow-x: hidden;
     
 }
 
-.column img {
-    height: 95%;
+.left {
+    left: 0;
+    background-color: #111;
 }
+
+.right {
+    right: 0;
+    background-color: red;
+}
+
+.centered {
+    position: relative;
+}
+
+.left .centered {
+    top: 10%;
+    left: 5%;
+}
+
+.right .centered {
+    top: 40%;
+    left: 50%;
+    box-shadow: inset 30px 0 30px black;
+}
+
+.centered img {
+    width: 350px;
+    display: block;
+    position: relative;
+    z-index: -1;
+} */
+
+
 
 
 /* #about {
@@ -222,9 +297,12 @@ header {
 /* " logo " */
 header .brand {
     color: #ffffff;
+    font-family: 'Playfair Display', serif;
     font-size: 1.5em;
     font-weight: 700;
-    text-transform: uppercase;
+    letter-spacing: -.01em;
+    /* font-size: 1.5em;
+    font-weight: 500; */
     text-decoration: none;
 }
 
@@ -285,7 +363,7 @@ header .navigation .navigation-items a:hover:before {
 } */
 
 /* " slider" */
-section {
+.slider-container section {
     padding: 100px 200px;
 }
 
@@ -298,7 +376,7 @@ section {
     /* min-height: 100vh; */
     /* height: 500px; */
     overflow: hidden;
-    height: 550px;
+    height: 600px;
     border-radius: 1.5em;
 }
 
@@ -306,7 +384,7 @@ section {
     z-index: 777;
     content: '';
     position: absolute;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.959) 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to top, rgb(0, 0, 0) 5%, rgba(133, 133, 133, 0.342) 110%);
     width: 100%;
     height: 100%;
     top: 0;
@@ -315,7 +393,7 @@ section {
 
 .home .content-wrapper {
     z-index: 888;
-    color: #fff;
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -323,29 +401,39 @@ section {
 }
 
 .home .content-wrapper h1 {
-    font-size: 3em;
+    /* font-size: 3em;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 5px; */
+    font-family: 'Playfair Display', serif;
+    font-size: 70px;
+    line-height: 75px;
+    letter-spacing: -.02em;
+    font-weight: 900;
 }
 
 .home .content-wrapper h2 {
+    font-family: 'Playfair', serif;
     font-size: 2em;
-    font-weight: 300;
-    margin-bottom: 30px;
+    font-weight: 100;
+    margin-bottom: 25px;
 }
 
 .home .content-wrapper p {
     margin-bottom: 35px;
     width: 70%;
+    font-size: 1.2rem;
+    line-height: 1.80rem;
+    font-weight: 200;
 }
 
 .home .content-wrapper a {
     background: #fff;
     padding: 15px 35px;
     color: #222;
-    font-size: 1.1em;
-    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 1.85rem;
+    font-weight: 550;
     text-decoration: none;
     border-radius: 32px;
 }

@@ -49,12 +49,13 @@ const SliderImgsComponent = () => {
                 </div>
 
                 <div className='content-wrapper'>
-                    <h1>Título</h1>
-                    <h2>Subtítulo</h2>
+                    <h1>Find your happy place</h1>
+                    <br/>
+                    <h2>Let's book a Wander</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Maecenas pharetra convallis posuere morbi leo urna molestie. 
                     </p>
-                    <a href="/readmore">Read More</a>
+                    <a href="/readmore">Read More ➝</a>
                 </div>
 
                 {/* <div className={activeSlide === 0 ? 'content active' : 'content'}>

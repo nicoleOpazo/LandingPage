@@ -19,7 +19,7 @@ function NavBarComponent() {
 
     return (
         <header>
-            <a href="/" class="brand">Logo</a>
+            <a href="/" class="brand">Wander</a>
             <div class="menu-btn" ref={menuBtnRef} onClick={handleClick}></div>
             <div class="navigation" ref={navigationRef}>
                 <div class="navigation-items">
