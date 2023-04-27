@@ -41,13 +41,11 @@ const SliderImgsComponent = () => {
 
                 <div className="slider-wrapper">
 
-                    <img className={activeSlide === 0 ? 'image-slide active' : 'image-slide previous'} src="https://img.freepik.com/free-photo/luxury-pool-villa-spectacular-contemporary-design-digital-art-real-estate-home-house-property-ge_1258-150759.jpg?w=740&t=st=1682497826~exp=1682498426~hmac=f91eb041143d102b1d42c6c190a7bd627bade35e294fc1caf4444af48202b9b1"></img>
+                    <img className={activeSlide === 0 ? 'image-slide active' : 'image-slide previous'} src="https://img.freepik.com/free-photo/luxury-pool-villa-spectacular-contemporary-design-digital-art-real-estate-home-house-property-ge_1258-150759.jpg?w=740&t=st=1682497826~exp=1682498426~hmac=f91eb041143d102b1d42c6c190a7bd627bade35e294fc1caf4444af48202b9b1" alt='...'></img>
 
-                    <img className={activeSlide === 1 ? 'image-slide active' : 'image-slide previous'} src="https://img.freepik.com/free-photo/luxury-pool-villa-spectacular-contemporary-design-digital-art-real-estate-home-house-property-generative-ai-illustration_1258-151614.jpg?w=996&t=st=1682498877~exp=1682499477~hmac=e44376ba91f7d0bae3544e84b51df4e5bd996f8d3da92063ebcee56cc73d89e3"
-                    ></img>
+                    <img className={activeSlide === 1 ? 'image-slide active' : 'image-slide previous'} src="https://img.freepik.com/free-photo/luxury-pool-villa-spectacular-contemporary-design-digital-art-real-estate-home-house-property-generative-ai-illustration_1258-151614.jpg?w=996&t=st=1682498877~exp=1682499477~hmac=e44376ba91f7d0bae3544e84b51df4e5bd996f8d3da92063ebcee56cc73d89e3" alt='...'></img>
 
-                    <img className={activeSlide === 2 ? 'image-slide active' : 'image-slide previous'} src="https://img.freepik.com/free-photo/contemporary-living-room_1150-12613.jpg?w=740&t=st=1682498710~exp=1682499310~hmac=b6224268a157c7957d6b861c74a7b7c10b619dbc0512789170b82629302f8517"
-                    ></img>
+                    <img className={activeSlide === 2 ? 'image-slide active' : 'image-slide previous'} src="https://img.freepik.com/free-photo/contemporary-living-room_1150-12613.jpg?w=740&t=st=1682498710~exp=1682499310~hmac=b6224268a157c7957d6b861c74a7b7c10b619dbc0512789170b82629302f8517" alt='...'></img>
                 </div>
 
                 <div className='content-wrapper'>
